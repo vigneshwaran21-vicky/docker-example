@@ -13,7 +13,7 @@ labels:
 app: html-demo 
 spec: 
 containers: - name: html-demo 
-image: swetab84/html-demo:latest 
+image: vigneshwaran2110/html-demo:latest 
 ports: - containerPort: 80 --- 
 apiVersion: v1 
 kind: Service 
