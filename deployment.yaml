@@ -17,13 +17,14 @@ spec:
           image: vigneshwaran2110/html-demo:latest
           ports:
             - containerPort: 80
+
 ---
 apiVersion: v1
 kind: Service
 metadata:
   name: html-demo-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: html-demo
   ports:
