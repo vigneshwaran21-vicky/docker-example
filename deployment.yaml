@@ -23,7 +23,7 @@ kind: Service
 metadata:
   name: html-demo-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: html-demo
   ports:
